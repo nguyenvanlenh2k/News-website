@@ -9,4 +9,8 @@
  - Servlet: 
  
  - Sử dụng công nghệ sitemesh decorator để làm layout cho trang web 
-
+ - Sử dụng mô hình MVC
+ 
+ #Công việc: 
+  - Nguyễn Văn Lênh : giao diện (View), xử lý (Controller)
+  - Nguyễn Tấn Kiệt : kết nối database MySQL (DAO) , các lớp (Model) 
