@@ -11,7 +11,7 @@ import model.Comment;
 import model.News;
 import model.User;
 
-public class CommentImplement implements CommentDAO{
+public class CommentImplement implements ICommentDAO{
 
 	@Override
 	public List<Comment> display(long newsId) {

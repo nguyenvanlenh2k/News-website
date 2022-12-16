@@ -12,7 +12,7 @@ import model.Author;
 import model.Category;
 import model.News;
 
-public class NewsImplement implements NewsDAO {
+public class NewsImplement implements INewsDAO {
 
 	@Override
 	public List<News> findAll() {

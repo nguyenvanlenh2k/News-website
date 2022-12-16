@@ -10,7 +10,7 @@ import java.util.List;
 import model.Role;
 import model.User;
 
-public class UserImplement implements UserDAO {
+public class UserImplement implements IUserDAO {
 
 	@Override
 	public User findId(long id) {

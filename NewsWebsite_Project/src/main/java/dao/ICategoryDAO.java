@@ -3,7 +3,7 @@ package dao;
 import java.util.List;
 
 import model.Category;
-public interface CategoryDAO {
+public interface ICategoryDAO {
 	
 	public List<Category> findAll();
 	public Category findOneById(int id );

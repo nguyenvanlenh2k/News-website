@@ -9,7 +9,7 @@ import java.util.List;
 
 import model.Category;
 
-public class CategoryImplement implements CategoryDAO {
+public class CategoryImplement implements ICategoryDAO {
 
 	@Override
 	public List<Category> findAll() {

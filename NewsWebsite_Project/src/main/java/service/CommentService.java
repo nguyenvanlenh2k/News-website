@@ -6,7 +6,7 @@ import dao.CommentDAO;
 import dao.CommentImplement;
 import model.Comment;
 
-public class CommentService implements CommentDAO{
+public class CommentService implements ICommentService{
 
 	CommentDAO dao;
 	public CommentService() {

@@ -6,7 +6,7 @@ import dao.UserDAO;
 import dao.UserImplement;
 import model.User;
 
-public class UserService implements UserDAO {
+public class UserService implements IUserService {
 
 	UserDAO userDAO;
 
@@ -27,6 +27,10 @@ public class UserService implements UserDAO {
 	@Override
 	public User findAccount(String username, String pass) {
 		return userDAO.findAccount(username, pass);
+	}
+	@Override
+	public User forgotPass(String username, String email) {
+		return userDAO.findAccountWithUsernameAndEmail(username, email);
 	}
 
 	@Override

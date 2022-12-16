@@ -5,7 +5,7 @@ import dao.CategoryDAO;
 import dao.CategoryImplement;
 import model.Category;
 
-public class CategoryService implements CategoryDAO {
+public class CategoryService implements ICategoryService {
 
 	CategoryDAO cateDAO;
 

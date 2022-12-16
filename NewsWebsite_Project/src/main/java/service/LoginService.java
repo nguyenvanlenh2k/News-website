@@ -18,12 +18,12 @@ public class LoginService {
 				user = userDAO.findAccount(username, pass);
 		return user;
 	}
-	public boolean checkUserExists(String username) {
-		boolean result = false;
+	public User checkUserExists(String username) {
+		User result = null;
 		List<User> list = userDAO.findAll();
 		for (User u : list) {
 			if(u.getUserName().equals(username)) {
-				result = true;
+				result = u;
 			}
 		}
 		return result;

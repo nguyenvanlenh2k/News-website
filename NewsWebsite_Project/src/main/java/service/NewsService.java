@@ -6,7 +6,7 @@ import dao.NewsDAO;
 import dao.NewsImplement;
 import model.News;
 
-public class NewsService implements NewsDAO {
+public class NewsService implements INewsService {
 
 	NewsDAO newsDAO;
 	
