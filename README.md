@@ -3,11 +3,11 @@
 # Tên đồ án : Website tin tức
  
 ## Công nghệ áp dụng:
-    #### Maven project để quản lý thư viện dễ dàng
-    #### Sitemesh Decorator để làm bố cục trang web
-    #### Filter để phân quyền Admin ,author (tác giả), user (người đọc)
-    #### JDBC để tương tác với MySQL
-    #### JSTL & EL  để thay thế mã java trong trang JSP
+   #### Maven project để quản lý thư viện dễ dàng
+   #### Sitemesh Decorator để làm bố cục trang web
+   #### Filter để phân quyền Admin ,author (tác giả), user (người đọc)
+   #### JDBC để tương tác với MySQL
+   #### JSTL & EL  để thay thế mã java trong trang JSP
 
 ## Phân công công việc
 ### Nguyễn Văn Lênh:
